@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_our_processes",
+  "info": {
+    "name": "ourProcess",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.content",
+      "required": true,
+      "max": 3
+    }
+  }
+}

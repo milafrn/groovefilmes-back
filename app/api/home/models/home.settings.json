@@ -1,0 +1,87 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": true
+    },
+    "mainVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.main-video"
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-us"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.banner",
+      "required": true
+    },
+    "lastJobs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.last-jobs",
+      "required": true
+    },
+    "ourProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-process",
+      "required": true
+    },
+    "aboutDirector": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-director",
+      "required": true
+    },
+    "theCompany": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.the-company"
+    },
+    "ourCustomer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-customer"
+    },
+    "instafeed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.instafeed",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    }
+  }
+}

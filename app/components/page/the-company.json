@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_the_companies",
+  "info": {
+    "name": "theCompany",
+    "icon": "city",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "A Empresa"
+    },
+    "text": {
+      "type": "richtext",
+      "default": "A Groove Filmes nasceu de um sonho, que junto com o amor por registrar recordações, fez com que a paixão pela arte se tornasse um trabalho, facilitando as decisões de nossos clientes. Somos uma empresa diferente, pois fazemos filmes diferentes. Sabemos que não é fácil encontrar a pessoa certa para materializar esse momento único. Então, chegamos para tornar as coisas mais simples. Trabalhamos com os mais novos e modernos equipamentos, garantindo a qualidade do seu filme, pois sabemos que ele vai durar pra sempre. Será uma honra ter vocês como parte da família Groove Filmes.",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

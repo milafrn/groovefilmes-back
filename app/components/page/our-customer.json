@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_our_customers",
+  "info": {
+    "name": "ourCustomer",
+    "icon": "user-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.image",
+      "required": true
+    }
+  }
+}

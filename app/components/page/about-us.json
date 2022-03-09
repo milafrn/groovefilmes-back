@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_aboutuses",
+  "info": {
+    "name": "aboutUs",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "textOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "textTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_instafeeds",
+  "info": {
+    "name": "instafeed",
+    "icon": "camera-retro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "instagramToken": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_banners",
+  "info": {
+    "name": "banner",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "textOne": {
+      "type": "text",
+      "required": true
+    },
+    "textTwo": {
+      "type": "text",
+      "required": true
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "video": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

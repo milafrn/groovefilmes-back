@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_last_jobs",
+  "info": {
+    "name": "lastJobs",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.gallery",
+      "required": true,
+      "min": 3
+    }
+  }
+}
